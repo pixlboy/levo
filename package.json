@@ -1,0 +1,44 @@
+{
+  "name": "front-end-dev-test",
+  "version": "1.0.0",
+  "description": "Front end developer test",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "front",
+    "end",
+    "dev",
+    "test"
+  ],
+  "author": "Jim Doyle",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "bootstrap-sass": "^3.3.7",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-flatten": "^0.3.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-karma": "0.0.4",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-webserver": "^0.9.1",
+    "jasmine-core": "^2.3.4",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "karma": "^1.7.0",
+    "karma-babel-preprocessor": "^6.0.1",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^0.3.5",
+    "karma-junit-reporter": "^1.2.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-source-map-support": "^1.2.0",
+    "karma-spec-reporter": "0.0.19",
+    "rename": "^1.0.3"
+  }
+}

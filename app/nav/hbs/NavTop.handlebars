@@ -1,0 +1,20 @@
+<div class="navTop">
+    <div class="navTop-title">
+        <p class="left navTop-mainTitle">
+            Today is --WEEK_DAY_NAME-- and the month is --MONTH_NAME--
+        </p>
+        <p class="right navTop-subTitle">
+            LEVO HAS OFFICES IN SYDNEY NSW AND MELBOURNE VIC.
+        </p>
+    </div>
+    <p class="clearfix"></p>
+    <ul class="navTop-list">
+        {{#each navItemsTop}}
+            <li class="navTop-item">
+                <a href="#" class="navTop-btn btn">
+                    {{this}}
+                </a>
+            </li>
+        {{/each}}
+    </ul>
+</div>

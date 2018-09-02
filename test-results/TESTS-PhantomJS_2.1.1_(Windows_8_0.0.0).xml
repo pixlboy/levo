@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<testsuite name="PhantomJS 2.1.1 (Windows 8 0.0.0)" package="" timestamp="2017-09-01T11:19:43" id="0" hostname="rachitg-T450" tests="4" errors="0" failures="0" time="0.007">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"/>
+  </properties>
+  <testcase name="getWeekDay() Gets the day of the week in English." time="0.004" classname="PhantomJS_2_1_1_(Windows_8_0_0_0).getWeekDay()"/>
+  <testcase name="getMonthName() Gets the month of the year in English." time="0.001" classname="PhantomJS_2_1_1_(Windows_8_0_0_0).getMonthName()"/>
+  <testcase name="replaceBetween() Replaces delimters for all instances in a string." time="0.001" classname="PhantomJS_2_1_1_(Windows_8_0_0_0).replaceBetween()"/>
+  <testcase name="toPascalCase() Converts words in a string to pascal case." time="0.001" classname="PhantomJS_2_1_1_(Windows_8_0_0_0).toPascalCase()"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

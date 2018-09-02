@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>TopNav component</title>
+
+    <link href="css/app.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container-top">
+
+      {{>NavTop}}
+
+      <p class="middle">Hello I am Nav top and I appear on resolutions above 991px</p>
+    </div><!-- /.container -->
+
+    <div class="container-bottom">
+
+      {{>NavBottom}}
+
+      <p class="middle">Hello I am Nav Bottom and I appear on resolutions below 992px, I adjust myself for mobile views when screen width falls below 601px</p>
+
+    </div><!-- /.container -->
+
+    <div class="orientation-check-wrapper">
+    	<div class="orientation-check-text">This application is best supported on resolutions above 800px</div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>

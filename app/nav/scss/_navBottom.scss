@@ -1,0 +1,101 @@
+.navBottom {
+    background: $nav-bottom-bg;
+    padding: 15px;
+
+    &-title {
+        color: $color-white;
+        width: $nav-bottom-width;
+        margin: 0 auto;
+        .left{
+            float:left;
+            width: 50%;
+        }
+
+        .right{
+            float:right;
+            width: 50%;
+        }
+    }
+
+    &-list {
+        width: $nav-bottom-width;
+        margin: 10px auto;
+        display: flex;
+        transition: opacity 0.2s linear;
+        padding: 0;
+    }
+
+    &-item {
+        transition: all 0.2s linear;
+        background: $nav-bottom-item;
+        margin:0 10px 0 0;
+        align-items: center;
+        display: flex;
+        text-align: center;
+        list-style-type: none;
+        align-self: center;
+        &:hover{
+            background: $nav-bottom-hover;
+        }
+        &:last-of-type{
+            margin: 0;
+        }
+    }
+
+    &-btn {
+        transition: all 0.2s linear;
+        color: $nav-bottom-text;
+        font-size: 1.25rem;
+        vertical-align: middle;
+        display: inline-block;
+        padding: 8px 10px;
+        width: 100%;
+        text-decoration: none;
+        line-height: 1.25rem;
+        &:hover{
+            color: $color-white;
+        }
+    }
+
+}
+// Will work in screens between range 320px to 799px
+@media screen and (min-width: $break-xsmall) and (max-width: $break-small) {
+    .navBottom {
+        background: $nav-top-bg;
+        padding: 20px;
+
+        &-title {
+            width:100%;
+            .left, .right{
+                float:none;
+                margin: 0 0 20px 0;
+                width: 100%;
+            }
+        }
+
+        &-list {
+            width:100%;
+            flex-direction: column;
+        }
+
+        &-item {
+            background: $nav-top-item;
+            margin:0 0 15px 0;
+            align-self: auto;
+            &:hover{
+                background: $nav-top-hover;
+            }
+        }
+
+        &-btn {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            color: $nav-top-text;
+            &:hover{
+                color: $color-white;
+            }
+        }
+
+    }
+}
